@@ -1,0 +1,66 @@
+
+h2{
+    color: #6973FE;
+    font-weight: 500 
+}
+
+h4{
+    font-weight: 400;
+    text-align: center;
+}
+
+.vl {
+    border-left: 1px solid rgb(0, 0, 0);
+    height: 100%;
+  }
+  
+
+.logoContainer {
+    text-align: center;
+    margin: 10px 0; 
+  }
+  
+  .logo {
+    width: 40px; 
+    height: 40px; 
+    padding: 10px;
+  }
+
+  span{
+    color: #6973FE;
+  }
+
+  .middleContent{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 80px;
+}
+
+.loginbtn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.adminImg{
+    margin-top: 5rem;
+    height: 70%;
+}
+
+
+@media (max-width: 960px) {
+  .header, .footer, .vl, .adminImg{
+    display: none;
+  }
+
+  .logo{
+    display: flex;
+    flex-direction: column;
+    width: 30px;
+    height: 30px;
+    margin: 0px;
+    gap: 10px;
+  }
+}

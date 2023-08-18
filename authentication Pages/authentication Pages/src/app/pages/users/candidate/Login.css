@@ -1,0 +1,73 @@
+h2{
+    color: #6973FE;
+    font-weight: 500
+    
+}
+
+h4{
+    font-weight: 400
+}
+
+.subText{
+    text-align: left;
+    
+}
+
+.vl {
+  border-left: 1px solid rgb(0, 0, 0);
+  height: 100%;
+}
+
+.logoContainer {
+    text-align: center;
+    margin: 20px 0; 
+  }
+  
+  .logo {
+    width: 40px; 
+    height: 40px; 
+    margin: 10px; 
+  }
+
+  span{
+    color: #6973FE;
+  }
+  
+  .img1 {
+    position: absolute;
+    left: 0px;
+    bottom: 0px;
+    z-index: -1;
+    top: 40%;
+    height: 40%;
+  }
+  
+  .img2 {
+    position: absolute;
+    left: 16rem;
+    z-index: -1;
+    height: 70%;
+  }
+
+
+.middleContent{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 60px;
+}
+
+@media (max-width: 960px) {
+  .header, .footer, .img1, .img2, .divider{
+    display: none;
+  }
+
+  .logo{
+    display: flex;
+    flex-direction: column;
+    width: 30px;
+    height: 30px;
+    margin: 0px;
+  }
+}
